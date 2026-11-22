@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wenyuan Zhao</title>
+<meta name="description" content="Wenyuan Zhao — Ph.D. student, Nagaki Lab, Hokkaido University. Flow chemistry, literature data mining, and lab automation.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='6' fill='%231d5c63'/%3E%3C/svg%3E">
+<style>
+:root{
+  --bg:#fbfaf7; --fg:#1f2528; --muted:#5f6a70; --line:#e4e1da; --accent:#1d5c63;
+  --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Helvetica Neue","Segoe UI",Arial,sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root{ --bg:#161a1c; --fg:#e4e6e7; --muted:#9aa4a9; --line:#2c3337; --accent:#7fb8bd; }
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.65 var(--sans)}
+main{max-width:700px;margin:0 auto;padding:64px 24px 40px}
+a{color:var(--accent);text-decoration:none;border-bottom:1px solid transparent}
+a:hover{border-bottom-color:currentColor}
+header{display:flex;gap:28px;align-items:center;margin-bottom:44px}
+header img{width:112px;height:112px;border-radius:50%;object-fit:cover;flex:none}
+h1{font:600 2rem/1.2 var(--serif);margin:0 0 6px;letter-spacing:.01em}
+.role{margin:0;color:var(--muted)}
+.contact{margin:10px 0 0;font-size:.95rem;display:flex;flex-wrap:wrap;gap:.2em 1.2em}
+h2{font:600 .78rem/1 var(--sans);text-transform:uppercase;letter-spacing:.14em;color:var(--muted);
+   margin:40px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+p{margin:0 0 12px}
+ul.plain{list-style:none;margin:0;padding:0}
+ul.plain li{margin:0 0 10px}
+.rows li{display:grid;grid-template-columns:7.5rem 1fr;gap:12px}
+.rows .when{color:var(--muted);font-variant-numeric:tabular-nums}
+.sub{color:var(--muted);font-size:.93rem}
+.pub{margin:0 0 14px}
+.pub .t{font-family:var(--serif);font-size:1.06rem}
+.pub .a{color:var(--muted);font-size:.93rem}
+.pub .a b{color:var(--fg);font-weight:600}
+.pub .j{font-size:.93rem}
+.pub .links{font-size:.88rem}
+.pub .links a+a{margin-left:1em}
+details{margin-top:6px}
+summary{cursor:pointer;color:var(--accent);font-size:.93rem;list-style:none;user-select:none}
+summary::-webkit-details-marker{display:none}
+summary::before{content:"+ ";font-family:var(--sans)}
+details[open] summary::before{content:"− "}
+details[open] summary{margin-bottom:14px}
+footer{max-width:700px;margin:0 auto;padding:24px 24px 48px;color:var(--muted);font-size:.82rem}
+@media (max-width:560px){
+  main{padding-top:40px}
+  header{flex-direction:column;align-items:flex-start;gap:18px}
+  .rows li{grid-template-columns:1fr;gap:0}
+}
+</style>
+</head>
+<body>
+<main>
+
+<header>
+  <img src="photo.jpg" alt="Wenyuan Zhao" width="112" height="112">
+  <div>
+    <h1>Wenyuan Zhao</h1>
+    <p class="role">Ph.D. student, Laboratory of Organic Reaction Chemistry (Prof. Aiichiro Nagaki)<br>
+    Graduate School of Chemical Sciences and Engineering, Hokkaido University, Sapporo</p>
+    <p class="contact">
+      <span>wenyuan.zhao.a1 [at] elms.hokudai.ac.jp</span>
+      <!-- Google Scholar: add profile URL
+      <span><a href="https://scholar.google.com/citations?user=XXXX">Google Scholar</a></span>
+      -->
+      <span><a href="cv.pdf">CV (PDF)</a></span>
+      <span><a href="https://www.linkedin.com/in/wenyuan-zhao-0350982a6/">LinkedIn</a></span>
+      <span><a href="https://github.com/wzjeh">GitHub</a></span>
+    </p>
+  </div>
+</header>
+
+<h2>Research</h2>
+<p>I work on data-driven flow chemistry: getting structured experimental data out of the literature, generating it with automated flow platforms, and using it efficiently for optimization.</p>
+<ul class="plain">
+  <li>Multimodal mining of structured data from chemistry literature<br><span class="sub">Computer vision, cheminformatics, flow organolithium chemistry</span></li>
+  <li>Flow chemistry for fine-chemical processes and heterogeneous catalysts<br><span class="sub">Microreactors, heterogeneous catalysis, Bayesian optimization</span></li>
+  <li>Automated chemistry laboratory<br><span class="sub">Lab automation, self-driving laboratories</span></li>
+</ul>
+
+<h2>Education &amp; Experience</h2>
+<ul class="plain rows">
+  <li><span class="when">2025 – present</span><span>Ph.D., Hokkaido University, Japan</span></li>
+  <li><span class="when">2022 – 2024</span><span>R&amp;D Engineer, Wanhua Chemical Group, Yantai, China<br><span class="sub">POE and PEBA elastomers</span></span></li>
+  <li><span class="when">2019 – 2022</span><span>M.S., Applied Chemistry, Shenyang Research Institute of Chemical Industry, China</span></li>
+  <li><span class="when">2015 – 2019</span><span>B.S., Chemical Engineering, Beijing University of Chemical Technology, China</span></li>
+</ul>
+
+<h2>Publications</h2>
+<div class="pub">
+  <div class="t">Automated multimodal mining of structured data locked in the figures and tables of flow chemistry literature</div>
+  <div class="a"><b>W. Zhao</b>, X. Zhong, X. Jouffroy, Y. Ashikari, H. V. Miyagishi, M. S. Qenawy, S. Wang, Y. Peng, M. R. Munsyi, A. Nagaki</div>
+  <div class="j"><i>Chem. Sci.</i> <b>2026</b>, advance article. Open access.</div>
+  <div class="links"><a href="https://doi.org/10.1039/D6SC06681J">DOI</a><a href="https://github.com/wzjeh/FlowFigTabMiner">Code</a><a href="https://flowfigtabminer-903119038444.asia-northeast1.run.app">Demo</a></div>
+</div>
+
+<details>
+  <summary>Earlier first-author publications (3)</summary>
+  <div class="pub">
+    <div class="t">Continuous flow nitration of nitrobenzene: kinetic modeling and Bayesian optimization</div>
+    <div class="a"><b>W. Zhao</b>, S. Wang, W. Zhao, W. Wei, W. Xu, D. Yan</div>
+    <div class="j"><i>Ind. Eng. Chem. Res.</i> <b>2025</b>, <i>64</i>, 9881–9889.</div>
+    <div class="links"><a href="https://doi.org/10.1021/acs.iecr.4c04642">DOI</a></div>
+  </div>
+  <div class="pub">
+    <div class="t">Continuous-flow microreactor system for enhanced selectivity and safety in nitrobenzene nitration</div>
+    <div class="a"><b>W. Zhao</b>, S. Wang, W. Zhao, W. Wei, D. Yan</div>
+    <div class="j"><i>ACS Omega</i> <b>2025</b>, <i>10</i>, 15503–15510.</div>
+    <div class="links"><a href="https://doi.org/10.1021/acsomega.5c00377">DOI</a></div>
+  </div>
+  <div class="pub">
+    <div class="t">Safe, green, and efficient synthesis of <i>m</i>-dinitrobenzene via two-step nitration in a continuous-flow microreactor</div>
+    <div class="a"><b>W. Zhao</b>, Q. Zhang, W. Wei, W. Xu, W. Sun, T. An, L. Ji, H. Wang, C. Zhou, D. Yan</div>
+    <div class="j"><i>ChemistrySelect</i> <b>2023</b>, <i>8</i>, e202204997.</div>
+    <div class="links"><a href="https://doi.org/10.1002/slct.202204997">DOI</a></div>
+  </div>
+</details>
+
+<h2>Presentations</h2>
+<ul class="plain rows">
+  <li><span class="when">2026</span><span>Oral, RSC FIRST 2026: AI in Chemistry, Xiamen, China</span></li>
+</ul>
+
+<h2>Grants &amp; Awards</h2>
+<ul class="plain rows">
+  <li><span class="when">2026</span><span>SPReAD (AI for Science), MEXT, Japan — Principal Investigator</span></li>
+  <li><span class="when">2025</span><span>Best Poster, 16th CSE Summer School &amp; 13th ALP International Symposium</span></li>
+  <li><span class="when">2022</span><span>Outstanding Graduate, Department of Education of Liaoning Province</span></li>
+  <li><span class="when">2022</span><span>New Employee of the Year, Wanhua Chemical</span></li>
+</ul>
+
+
+</main>
+<footer>Last updated November 2026</footer>
+</body>
+</html>
